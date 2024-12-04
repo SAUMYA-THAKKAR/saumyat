@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Fire India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background for the entire page */
+            color: #f0f0f0; /* Light text color for readability */
+        }
+        .navbar {
+            background-color: #1f1f1f; /* Dark grey background for navbar */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .navbar a {
+            color: #f0f0f0; /* Light color for links */
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex-grow: 1;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .navbar a:hover {
+            background-color: #575757; /* Highlight effect */
+            color: #ffffff;
+        }
+        .content {
+            padding-top: 80px; /* Space for the fixed navbar */
+        }
+        header {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid #ff6347; /* Add border for emphasis */
+            border-radius: 10px;
+        }
+        .banner h2, .banner p {
+            margin-top: 10px;
+            color: #ff6347; /* Add a striking accent color */
+        }
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border: 5px solid #ff6347;
+            border-radius: 10px;
+            padding: 5px;
+            background-color: #1f1f1f;
+        }
+        h2 {
+            color: #ff6347; /* Consistent accent color */
+        }
+        p {
+            line-height: 1.6; /* Improve readability */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#tournaments">Tournaments</a>
+        <a href="#audio">Audio</a>
+        <a href="#video">Video</a>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Free Fire India</h1>
+        </header>
+        <div id="home">
+            <div class="banner">
+                <img src="free fire.webp" alt="Free Fire Banner">
+                <h2>Welcome to Free Fire</h2>
+                <p>Experience the ultimate battle royale game!</p>
+            </div>
+            <h2>About Free Fire India</h2>
+            <p>Free Fire is a popular battle royale mobile game in India, offering fast-paced 10-minute matches with 50 players dropping into a remote island. The game has gained massive popularity due to its exciting gameplay and frequent updates.</p>
+            <p>In Free Fire, players fight to be the last one standing, either as solo players or in teams of up to 4 players. With new events and challenges every season, Free Fire continues to engage millions of players across India.</p>
+        </div>
+        <div id="audio">
+            <h2>Audio Player</h2>
+            <audio controls>
+                <source src="ff song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div id="video">
+            <h2>Video Player</h2>
+            <video controls>
+                <source src="free fire video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </div>
+        <footer>
+            <p>&copy; 2024 Free Fire India - All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
